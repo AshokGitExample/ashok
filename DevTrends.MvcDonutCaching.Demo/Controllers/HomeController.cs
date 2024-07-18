@@ -15,6 +15,8 @@ namespace DevTrends.MvcDonutCaching.Demo.Controllers
             return RedirectToAction("Simple");
         }
 
+
+
         //
         // GET: /Home/
         [DonutOutputCache(Duration = 24 * 3600)]
